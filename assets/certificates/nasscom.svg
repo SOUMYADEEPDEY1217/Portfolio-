@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none">
+  <rect width="80" height="80" rx="16" fill="#141B26" stroke="rgba(245,158,11,0.3)"/>
+  <!-- Gold Shield / Ribbon for Gold badge -->
+  <path d="M40 18L56 24V40C56 50 48 58 40 62C32 58 24 50 24 40V24L40 18Z" fill="rgba(245,158,11,0.15)" stroke="#F59E0B" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M34 38L38 42L47 33" stroke="#F59E0B" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="40" cy="27" r="2.5" fill="#FFD700"/>
+</svg>

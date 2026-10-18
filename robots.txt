@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://soumyadeepdey1217.github.io/portfolio/sitemap.xml

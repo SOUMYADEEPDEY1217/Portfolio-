@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none">
+  <rect width="80" height="80" rx="16" fill="#141B26" stroke="rgba(239,68,68,0.3)"/>
+  <!-- Oracle Red Pill shape -->
+  <rect x="20" y="28" width="40" height="24" rx="12" stroke="#F80000" stroke-width="4.5" fill="none"/>
+  <circle cx="40" cy="40" r="4" fill="#F8FAFC"/>
+</svg>

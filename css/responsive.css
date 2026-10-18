@@ -1,0 +1,251 @@
+/* ==========================================================================
+   SOUMYADEEP DEY — RESPONSIVE STYLES
+   Breakpoints: 1200px, 1024px, 768px, 480px, 360px
+   ========================================================================== */
+
+/* 1. LARGE SCREENS & DESKTOPS (<= 1200px) */
+@media (max-width: 1200px) {
+  .projects-grid,
+  .certs-grid,
+  .experience-grid,
+  .skills-container,
+  .beyond-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 2. TABLETS & SMALL LAPTOPS (<= 1024px) */
+@media (max-width: 1024px) {
+  .section {
+    padding: 85px 0;
+  }
+
+  .nav-menu {
+    gap: 22px;
+  }
+  
+  .nav-link {
+    font-size: 13.5px;
+  }
+
+  .hero-floating-badges {
+    display: none;
+  }
+
+  .about-grid,
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* 3. TABLETS PORTRAIT & MOBILE (<= 768px) */
+@media (max-width: 768px) {
+  .section {
+    padding: 70px 0;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .btn-nav-talk {
+    display: none;
+  }
+
+  /* Mobile Slide Drawer */
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 80%;
+    max-width: 340px;
+    height: 100vh;
+    background: rgba(10, 14, 22, 0.96);
+    backdrop-filter: blur(28px);
+    -webkit-backdrop-filter: blur(28px);
+    border-left: 1px solid var(--border-color);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    transition: right var(--transition-normal);
+    z-index: 105;
+    box-shadow: -15px 0 40px rgba(0, 0, 0, 0.8);
+    padding: 40px 20px;
+  }
+
+  .nav-menu.open {
+    right: 0;
+  }
+
+  .nav-link {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .hero-section {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+
+  .hero-visual-wrapper {
+    height: 380px;
+  }
+
+  .hero-hud-ring-outer {
+    width: 320px;
+    height: 320px;
+  }
+
+  .hero-hud-ring-inner {
+    width: 250px;
+    height: 250px;
+  }
+
+  .floating-badge {
+    padding: 6px 12px;
+    font-size: 11px;
+  }
+
+  .badge-python   { top: 20px; left: 0px; }
+  .badge-react    { top: 10px; right: 0px; }
+  .badge-fastapi  { bottom: 40px; left: -10px; }
+  .badge-aws      { bottom: 30px; right: -5px; }
+  .badge-ai       { display: none; }
+  .badge-js       { display: none; }
+
+  .about-cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-grid,
+  .certs-grid,
+  .experience-grid,
+  .skills-container,
+  .beyond-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .modal-actions {
+    flex-direction: column;
+  }
+
+  .modal-actions .btn {
+    width: 100%;
+  }
+}
+
+/* 4. SMALL MOBILE SCREENS (<= 480px) */
+@media (max-width: 480px) {
+  .container {
+    padding: 0 18px;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  .hero-name {
+    font-size: 34px;
+  }
+
+  .hero-roles {
+    font-size: 18px;
+  }
+
+  .hero-cta-group {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-cta-group .btn {
+    width: 100%;
+  }
+
+
+  .timeline-item {
+    padding-left: 36px;
+  }
+
+  .timeline-line {
+    left: 12px;
+  }
+
+  .timeline-marker {
+    left: 5px;
+    width: 14px;
+    height: 14px;
+  }
+
+  .contact-form-wrapper,
+  .about-info-panel,
+  .timeline-content,
+  .experience-card,
+  .service-card,
+  .skill-category-card,
+  .cert-card,
+  .beyond-card {
+    padding: 22px 18px;
+  }
+
+  .modal-container {
+    padding: 0;
+  }
+
+  .modal-banner {
+    height: 180px;
+  }
+
+  .modal-header-info,
+  .modal-section {
+    padding: 12px 18px;
+  }
+
+  .modal-actions {
+    padding: 18px;
+  }
+
+  .back-to-top {
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* 5. EXTRA SMALL MOBILE (<= 360px) */
+@media (max-width: 360px) {
+  .hero-name {
+    font-size: 30px;
+  }
+
+  .brand-text {
+    font-size: 13px;
+  }
+
+  .floating-badge {
+    padding: 4px 8px;
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none">
+  <rect width="80" height="80" rx="16" fill="#141B26" stroke="rgba(16,185,129,0.3)"/>
+  <!-- Cisco Bridge Bars -->
+  <rect x="22" y="38" width="4" height="16" rx="2" fill="#049FD9"/>
+  <rect x="30" y="28" width="4" height="26" rx="2" fill="#049FD9"/>
+  <rect x="38" y="20" width="4" height="34" rx="2" fill="#10B981"/>
+  <rect x="46" y="28" width="4" height="26" rx="2" fill="#049FD9"/>
+  <rect x="54" y="38" width="4" height="16" rx="2" fill="#049FD9"/>
+  <!-- Shield outline -->
+  <path d="M20 18L40 12L60 18V38C60 52 40 64 40 64C40 64 20 52 20 38V18Z" stroke="#10B981" stroke-width="1.5" stroke-dasharray="3 3" fill="none"/>
+</svg>

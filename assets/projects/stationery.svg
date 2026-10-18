@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" rx="16" fill="#0A0D14"/>
+  <!-- Top bar -->
+  <rect width="800" height="44" fill="#101520"/>
+  <circle cx="28" cy="22" r="5" fill="#EF4444"/>
+  <circle cx="44" cy="22" r="5" fill="#F59E0B"/>
+  <circle cx="60" cy="22" r="5" fill="#10B981"/>
+  <text x="400" y="27" fill="#64748B" font-family="'Space Grotesk', monospace" font-size="12" text-anchor="middle">stationery-inventory.internal — Store Management System (Academic SRS / ERD)</text>
+
+  <!-- Left Stats Overview -->
+  <rect x="24" y="64" width="752" height="96" rx="12" fill="#121824" stroke="#1E293B"/>
+  
+  <rect x="44" y="80" width="160" height="64" rx="8" fill="#182232"/>
+  <text x="60" y="102" fill="#9CA8B8" font-family="'Space Grotesk', sans-serif" font-size="11">TOTAL INVENTORY</text>
+  <text x="60" y="130" fill="#F8FAFC" font-family="'Space Grotesk', sans-serif" font-size="22" font-weight="700">14,280</text>
+  <text x="140" y="130" fill="#10B981" font-family="sans-serif" font-size="11">SKUs Active</text>
+
+  <rect x="224" y="80" width="160" height="64" rx="8" fill="#182232"/>
+  <text x="240" y="102" fill="#9CA8B8" font-family="'Space Grotesk', sans-serif" font-size="11">DAILY TRANSACTIONS</text>
+  <text x="240" y="130" fill="#FF9800" font-family="'Space Grotesk', sans-serif" font-size="22" font-weight="700">₹48,920</text>
+  <text x="330" y="130" fill="#FFB347" font-family="sans-serif" font-size="11">+18.4%</text>
+
+  <rect x="404" y="80" width="160" height="64" rx="8" fill="#182232"/>
+  <text x="420" y="102" fill="#9CA8B8" font-family="'Space Grotesk', sans-serif" font-size="11">REORDER ALERTS</text>
+  <text x="420" y="130" fill="#EF4444" font-family="'Space Grotesk', sans-serif" font-size="22" font-weight="700">12</text>
+  <text x="460" y="130" fill="#EF4444" font-family="sans-serif" font-size="11">Items Low</text>
+
+  <rect x="584" y="80" width="172" height="64" rx="8" fill="#182232"/>
+  <text x="600" y="102" fill="#9CA8B8" font-family="'Space Grotesk', sans-serif" font-size="11">SCHEMA / RELATIONS</text>
+  <text x="600" y="130" fill="#38BDF8" font-family="'Space Grotesk', sans-serif" font-size="18" font-weight="700">3NF Normalized</text>
+
+  <!-- Left: Inventory Table Mockup -->
+  <rect x="24" y="176" width="460" height="300" rx="12" fill="#111722" stroke="#1E293B"/>
+  <text x="44" y="206" fill="#F8FAFC" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="700">Stock Inventory Ledger</text>
+  <rect x="370" y="190" width="94" height="24" rx="6" fill="#1E293B"/>
+  <text x="417" y="206" fill="#FF9800" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">+ New Batch</text>
+
+  <!-- Table Header -->
+  <rect x="44" y="224" width="420" height="28" rx="4" fill="#182232"/>
+  <text x="56" y="242" fill="#9CA8B8" font-family="'Space Grotesk', sans-serif" font-size="10">SKU / ITEM</text>
+  <text x="180" y="242" fill="#9CA8B8" font-family="'Space Grotesk', sans-serif" font-size="10">CATEGORY</text>
+  <text x="290" y="242" fill="#9CA8B8" font-family="'Space Grotesk', sans-serif" font-size="10">QTY</text>
+  <text x="360" y="242" fill="#9CA8B8" font-family="'Space Grotesk', sans-serif" font-size="10">STATUS</text>
+
+  <!-- Table Rows -->
+  <line x1="44" y1="284" x2="464" y2="284" stroke="#1E293B"/>
+  <text x="56" y="272" fill="#F8FAFC" font-family="sans-serif" font-size="11">A4 Bond Reams (75 GSM)</text>
+  <text x="180" y="272" fill="#9CA8B8" font-family="sans-serif" font-size="11">Papercraft</text>
+  <text x="290" y="272" fill="#F8FAFC" font-family="sans-serif" font-size="11">420</text>
+  <rect x="360" y="258" width="60" height="20" rx="4" fill="rgba(16,185,129,0.15)"/>
+  <text x="390" y="272" fill="#10B981" font-family="sans-serif" font-size="9" font-weight="bold" text-anchor="middle">In Stock</text>
+
+  <line x1="44" y1="324" x2="464" y2="324" stroke="#1E293B"/>
+  <text x="56" y="312" fill="#F8FAFC" font-family="sans-serif" font-size="11">Engineering Drafting Pens</text>
+  <text x="180" y="312" fill="#9CA8B8" font-family="sans-serif" font-size="11">Technical</text>
+  <text x="290" y="312" fill="#F8FAFC" font-family="sans-serif" font-size="11">15</text>
+  <rect x="360" y="298" width="60" height="20" rx="4" fill="rgba(239,68,68,0.15)"/>
+  <text x="390" y="312" fill="#EF4444" font-family="sans-serif" font-size="9" font-weight="bold" text-anchor="middle">Low Stock</text>
+
+  <line x1="44" y1="364" x2="464" y2="364" stroke="#1E293B"/>
+  <text x="56" y="352" fill="#F8FAFC" font-family="sans-serif" font-size="11">Scientific Calculators (fx-991)</text>
+  <text x="180" y="352" fill="#9CA8B8" font-family="sans-serif" font-size="11">Electronics</text>
+  <text x="290" y="352" fill="#F8FAFC" font-family="sans-serif" font-size="11">88</text>
+  <rect x="360" y="338" width="60" height="20" rx="4" fill="rgba(16,185,129,0.15)"/>
+  <text x="390" y="352" fill="#10B981" font-family="sans-serif" font-size="9" font-weight="bold" text-anchor="middle">In Stock</text>
+
+  <text x="56" y="405" fill="#64748B" font-family="sans-serif" font-size="11">System documentation: SRS, Use-Case Diagrams, DFD Level 0/1/2.</text>
+  <text x="56" y="425" fill="#64748B" font-family="sans-serif" font-size="11">Entity-Relationship design with relational keys &amp; transaction logging.</text>
+
+  <!-- Right: Architecture / ERD Flow -->
+  <rect x="500" y="176" width="276" height="300" rx="12" fill="#111722" stroke="#1E293B"/>
+  <text x="520" y="206" fill="#F8FAFC" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="700">Relational Architecture</text>
+
+  <!-- ERD Node 1: Products -->
+  <rect x="520" y="230" width="110" height="70" rx="6" fill="#182232" stroke="#FF9800"/>
+  <text x="532" y="248" fill="#FF9800" font-family="'Space Grotesk', sans-serif" font-size="10" font-weight="bold">TBL_PRODUCTS</text>
+  <text x="532" y="266" fill="#9CA8B8" font-family="sans-serif" font-size="9">PK: product_id</text>
+  <text x="532" y="280" fill="#9CA8B8" font-family="sans-serif" font-size="9">FK: category_id</text>
+
+  <!-- ERD Node 2: Orders -->
+  <rect x="650" y="230" width="110" height="70" rx="6" fill="#182232" stroke="#38BDF8"/>
+  <text x="662" y="248" fill="#38BDF8" font-family="'Space Grotesk', sans-serif" font-size="10" font-weight="bold">TBL_SALES</text>
+  <text x="662" y="266" fill="#9CA8B8" font-family="sans-serif" font-size="9">PK: invoice_no</text>
+  <text x="662" y="280" fill="#9CA8B8" font-family="sans-serif" font-size="9">FK: customer_id</text>
+
+  <!-- ERD Connector -->
+  <path d="M 630 265 L 650 265" stroke="#9CA8B8" stroke-width="1.5" stroke-dasharray="2 2"/>
+
+  <!-- ERD Node 3: Inventory Ledger -->
+  <rect x="585" y="340" width="110" height="70" rx="6" fill="#182232" stroke="#10B981"/>
+  <text x="597" y="358" fill="#10B981" font-family="'Space Grotesk', sans-serif" font-size="10" font-weight="bold">TBL_STOCK_LOG</text>
+  <text x="597" y="376" fill="#9CA8B8" font-family="sans-serif" font-size="9">PK: log_id</text>
+  <text x="597" y="390" fill="#9CA8B8" font-family="sans-serif" font-size="9">FK: product_id</text>
+
+  <path d="M 575 300 L 575 340" stroke="#9CA8B8" stroke-width="1.5" stroke-dasharray="2 2"/>
+  <path d="M 705 300 L 695 340" stroke="#9CA8B8" stroke-width="1.5" stroke-dasharray="2 2"/>
+
+  <rect x="520" y="430" width="236" height="30" rx="6" fill="#16202E"/>
+  <text x="638" y="450" fill="#FFB347" font-family="'Space Grotesk', sans-serif" font-size="10" font-weight="600" text-anchor="middle">HTML5 • CSS3 • JavaScript • SQL</text>
+</svg>

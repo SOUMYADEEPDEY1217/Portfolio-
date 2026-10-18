@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="16" fill="#080C12"/>
+  <rect x="1" y="1" width="62" height="62" rx="15" stroke="url(#orange_grad)" stroke-width="2" stroke-opacity="0.6"/>
+  <!-- SD Monogram -->
+  <path d="M20 23H30C33.3137 23 36 25.6863 36 29C36 32.3137 33.3137 35 30 35H24C20.6863 35 18 37.6863 18 41C18 44.3137 20.6863 47 24 47H34" stroke="url(#orange_grad)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M36 23H42C46.4183 23 50 26.5817 50 31V39C50 43.4183 46.4183 47 42 47H36V23Z" stroke="#F8FAFC" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="48" cy="18" r="3" fill="#FF9800"/>
+  <defs>
+    <linearGradient id="orange_grad" x1="18" y1="20" x2="50" y2="44" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFB347"/>
+      <stop offset="1" stop-color="#FF6D00"/>
+    </linearGradient>
+  </defs>
+</svg>
