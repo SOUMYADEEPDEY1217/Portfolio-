@@ -1,7 +1,7 @@
 # Soumyadeep Dey — Premium Futuristic Developer Portfolio
 
 [![Vercel Deployment](https://img.shields.io/badge/Deploy-Vercel-black?logo=vercel)](https://vercel.com)
-[![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-blue?logo=github)](https://soumyadeepdey1217.github.io/portfolio/)
+[![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-blue?logo=github)](https://soumyadeepdey1217.github.io/Portfolio-/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](LICENSE)
 
 An award-winning, cinematic, dark-themed developer portfolio built for **Soumyadeep Dey** (Full-Stack Developer & AI/ML Engineer), inspired by the futuristic **DEVFUSION** aesthetic.
@@ -75,7 +75,7 @@ Simply double-click `index.html` in your file explorer. All asset paths and scri
    git add .
    git commit -m "feat: initial commit of premium portfolio"
    git branch -M main
-   git remote add origin https://github.com/SOUMYADEEPDEY1217/portfolio.git
+   git remote add origin https://github.com/SOUMYADEEPDEY1217/Portfolio-.git
    git push -u origin main
    ```
 2. Go to [Vercel](https://vercel.com) and import the repository.
@@ -85,7 +85,7 @@ Simply double-click `index.html` in your file explorer. All asset paths and scri
 ### Deploy to GitHub Pages
 1. Go to repository **Settings** → **Pages**.
 2. Under **Build and deployment**, set Source to **Deploy from a branch** (`main` / root).
-3. Save. Your site will be live at `https://soumyadeepdey1217.github.io/portfolio/`.
+3. Save. Your site will be live at `https://soumyadeepdey1217.github.io/Portfolio-/`.
 
 ---
 
